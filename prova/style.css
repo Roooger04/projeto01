@@ -1,0 +1,44 @@
+* {
+    font-family: Calibri, Arial, sans-serif;
+}
+body {
+    background: navy;
+    background: linear-gradient(0deg, navy 0%, darkgreen 100%);
+    height: 100vh;
+    
+}
+#root {
+    margin: 5%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px rgba(250, 250, 250, 0.2);
+}
+h1 {
+    color: navy;
+    text-shadow: 2px 2px rgba(0, 100, 0, 0.2);
+    text-align: center;
+
+}
+#world-map {
+    text-align: center;
+}
+#world-map img {
+    width: 40%;
+    max-width: 1000px;
+}
+.input-set, .result {
+    margin: 15px auto;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+}
+.input-set label {
+    display: block;
+    color: darkgreen;
+}
+.result {
+    background-color: darkgreen;
+    color: white;
+    border-radius: 12px;
+}
